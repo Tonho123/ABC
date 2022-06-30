@@ -1,0 +1,40 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="512dp"
+            android:height="512dp"
+            android:viewportWidth="512"
+            android:viewportHeight="512">
+            <group
+                android:name="group"
+                android:pivotX="256"
+                android:pivotY="256"
+                android:rotation="3">
+                <path
+                    android:name="path"
+                    android:pathData="M 150.49 167.72 C 150.69 167.9 150.9 168.1 151.1 168.31 L 237.59 256.25 L 155.16 340.09 C 153.59 341.68 151.96 343.18 150.27 344.56 C 126.1 364.43 90.58 362.95 68.09 340.09 C 45.61 317.22 44.15 281.1 63.69 256.5 C 39.99 232.03 40.11 192.64 64.04 168.31 C 87.88 144.06 126.42 143.85 150.49 167.72 Z M 361.51 165.31 C 361.31 165.49 361.1 165.69 360.9 165.9 L 274.41 253.84 L 356.84 337.68 C 358.41 339.27 360.04 340.77 361.73 342.15 C 385.9 362.02 421.42 360.54 443.91 337.68 C 466.39 314.81 467.85 278.69 448.31 254.09 C 472.01 229.62 471.89 190.23 447.96 165.9 C 424.12 141.65 385.58 141.44 361.51 165.31 Z"
+                    android:fillColor="#7ac943"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="path_1"
+                    android:pathData="M 166.74 359.73 C 166.92 359.52 167.12 359.32 167.32 359.11 L 253.79 271.15 L 336.22 354.99 C 337.79 356.58 339.26 358.25 340.61 359.96 C 360.15 384.54 358.69 420.67 336.22 443.53 C 313.74 466.4 278.22 467.88 254.03 448.01 C 229.97 472.11 191.24 471.99 167.32 447.65 C 143.47 423.4 143.27 384.21 166.74 359.73 Z M 166.74 152.27 C 166.92 152.48 167.12 152.68 167.32 152.89 L 253.79 240.85 L 336.22 157.01 C 337.79 155.42 339.26 153.75 340.61 152.04 C 360.15 127.46 358.69 91.33 336.22 68.47 C 313.74 45.6 278.22 44.12 254.03 63.99 C 229.97 39.89 191.24 40.01 167.32 64.35 C 143.47 88.6 143.27 127.79 166.74 152.27 Z"
+                    android:fillColor="#f15a24"
+                    android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="group">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="rotation"
+                android:duration="3500"
+                android:valueFrom="0"
+                android:valueTo="360"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+        </aapt:attr>
+    </target>
+</animated-vector>
